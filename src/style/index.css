@@ -1,6 +1,6 @@
 /* Input.css */
 body{
-    background-color: rgb(14, 8, 8);
+    background-color: rgb(8, 10, 14);
 }
 input {
     width: 100%;
@@ -10,7 +10,9 @@ input {
     height: 50px;
     border-radius: 5px;
     box-sizing: border-box;
+    cursor: pointer;
   }
+  
   
   /* Form.css */
   .form-container {
@@ -27,6 +29,13 @@ input {
   h1{
     color: #fff;
     text-transform: uppercase;
+
+    text-shadow:0 0 50px #ec5656;
+  }
+  h1:hover{
+    
+    transition: 2s;
+    text-shadow:2px 0 20px #007bff;
   }
   button {
     display: block;
@@ -43,7 +52,11 @@ input {
     font-size: 20px;
     color: #0056b3;
     text-transform: capitalize;
+
   }
   button:hover {
     background-color: #0056b3;
+  }
+  a{
+    text-decoration: none;
   }
